@@ -3,12 +3,13 @@
 }
 header {
     background-image: url(sunrise.jpg);
-    background-repeat: no-repeat;
     background-color: #40407a;
     color: #ffffff;
     margin-top: 50px;
     font-size: 90%;
     min-height: 200px;
+    background-repeat: no repeat;
+    background-size: 100% 100%;
 }
 header a {
     text-decoration: none;
@@ -87,7 +88,6 @@ footer {
     height: 50vh;
     padding-top: 2em;
     padding-left: 10%;
-    height: 20vh;
 }
 .content {
     padding-top: 2em;
