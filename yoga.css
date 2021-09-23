@@ -8,7 +8,7 @@ header {
     margin-top: 50px;
     font-size: 90%;
     min-height: 200px;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 header a {
@@ -175,8 +175,9 @@ input, datalist textarea { margin-bottom: .5em; }
 }
 
 @media (min-width: 1024px) {
-    .header {
+    header {
         font-size: 120%;
+        background-size: 100% 100%;
     }
     nav {
         font-weight: bold;
